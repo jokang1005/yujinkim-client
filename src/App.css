@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Nunito:wght@400;600;700&display=swap');
+
 .App {
   text-align: center;
 }
@@ -38,26 +40,31 @@
 }
 
 nav {
-  margin: 1em;
+  /* margin: 1em; */
+  height: 70px;
   padding-top: 5px;
   padding-bottom: 5px;
-  background-color: blanchedalmond;
   display: flex;
   align-items: center;
 }
 
 .nav-icon {
-  width: 5em;
-  height: 5em;
+  width: 7em;
+  /* height: 5em; */
 
-  margin-left: 4em;
+  /* background-image: url("https://images.unsplash.com/photo-1617627824653-30d2a99c5dc0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80");
+  background-size: cover; */
+  font-family: 'Nunito', sans-serif;
+  font-size: 3em;
+}
 
-  background-image: url("https://images.unsplash.com/photo-1617520998927-40e2633f6557?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1334&q=80");
-  background-size: cover;
+.nav-yujinkim {
+  display: flex;
+  justify-content: center;
 }
 
 .nav-buttons {
-  width: 80%;
+  width: 75%;
   display: inline-flex;
   justify-content: flex-end;
 }
@@ -65,4 +72,31 @@ nav {
 li {
   display: inline-flex;
   margin-left: 1em;
+}
+
+.box1 {
+  width: auto;
+  height: 500px;
+  background-color: black;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-bottom: 1em;
+}
+
+.box2 {
+  width: auto;
+  height: 500px;
+  background-color: blue;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-bottom: 1em;
+}
+
+.box3 {
+  width: auto;
+  height: 500px;
+  background-color: pink;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-bottom: 1em;
 }
