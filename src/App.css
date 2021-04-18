@@ -67,11 +67,15 @@ nav {
   width: 75%;
   display: inline-flex;
   justify-content: flex-end;
-}
-
-li {
   display: inline-flex;
   margin-left: 1em;
+}
+
+.tab {
+  display: inline-flex;
+  margin-left: 1em;
+  text-decoration: none;
+  color: black;
 }
 
 .box1 {
